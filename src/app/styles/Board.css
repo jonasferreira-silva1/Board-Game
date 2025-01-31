@@ -1,0 +1,79 @@
+/* src/app/styles/Board.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  text-align: center;
+  background-color: #8b4513; /* Marrom escuro para o fundo do tabuleiro */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* Texto branco para contrastar com o fundo marrom */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  background-color: #d2b48c; /* Bege para o tabuleiro */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #562706; /* Borda marrom escura */
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #f5deb3; /* Bege claro para as células */
+  color: #642b02; /* Texto marrom escuro */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cell:hover {
+  background-color: #e0c9a6; /* Bege mais escuro ao passar o mouse */
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.cell:active {
+  transform: scale(0.95); /* Efeito de clique */
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #026f26; /* Marrom avermelhado para o botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #8b4513; /* Marrom escuro ao passar o mouse */
+}
