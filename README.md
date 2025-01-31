@@ -1,6 +1,3 @@
-nao chat, descreva o que o codigo faz e nao me mostre o codigo, difa os comandos para criar rodae e etc escreca corretamente o README.md, essa inf vao ficar no meu repositorio esposto para todas as pessoas verem
-Claro, aqui está o conteúdo para o seu README.md, com as descrições apropriadas do que o código faz, comandos para criar e rodar o projeto e todas as informações relevantes.
-
 Jogo da Velha
 Este é um projeto Next.js criado com create-next-app.
 
